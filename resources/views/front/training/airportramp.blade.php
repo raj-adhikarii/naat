@@ -1,19 +1,19 @@
 @extends('layouts.front')
 
 @section('title')
-    <title>{{ config('app.name') }} | Aircraft Maintenance Engineering</title>
+    <title>{{ config('app.name') }} | Airport Ramp Services</title>
 @endsection
 
 @section('content')
     <section id="page-title" data-parallax-image="{{ asset('public/img/training-hero.jpg') }}">
         <div class="container">
             <div class="page-title">
-                <h1>Aircraft Maintenance Engineering</h1>
+                <h1>Airport Ramp Services</h1>
             </div>
             <div class="breadcrumb">
                 <ul>
                     <li><a href="{{ asset('/') }}">Home</a> </li>
-                    <li><a href="#">Aircraft Maintenance Engineering</a> </li>
+                    <li><a href="#">Airport Ramp Services</a> </li>
                 </ul>
             </div>
         </div>
@@ -23,42 +23,66 @@
         <div class="container">
             <div class="row">
                 <div class="content col-lg-8 col-sm-8 col-12">
-
                     <div id="blog" class="single-post">
-
                         <div class="post-item">
                             <div class="post-item-wrap">
                                 <div class="post-image">
                                     <a href="#">
-                                        <img alt="" src="{{ asset('public/img/aircraft.jpg') }}">
+                                        <img alt="" src="{{ asset('public/img/cabin.jpg') }}" style="height: 300px; object-fit: cover;">
                                     </a>
                                 </div>
                                 <br>
-                                <div itemprop="articleBody">
-                                    <p style="text-align: justify;"><strong>AIRCRAFT MAINTENANCE ENGINEERING (AME)</strong></p>
-                                    <p style="text-align: justify;">If your passion is in aviation and you love to work with airplanes then Aircraft Maintenance Engineering can be a promising career&nbsp;for you. Currently NAAT offers AME courses for both freshers and professionals.</p>
-                                    <p style="text-align: justify;">&nbsp;</p>
-                                    <p style="text-align: justify;"><strong>APPROVED PART 66 COURSE</strong></p>
-                                    <p style="text-align: justify;">If you are a high school graduate and you have completed your +2 (Science), this course will take you on a career path to become an AME. This course is offered by Air Service Training, UK. and you will be learning for the duration of 3 years.&nbsp;</p>
-                                    <p style="text-align: justify;">&nbsp;</p>
-                                    <hr>
-                                    <p style="text-align: justify;">&nbsp;</p>
-                                    <p style="text-align: justify;"><strong>EASA PART 66 SHORT MODULAR TRAINING &amp; EXAMINATION&nbsp;</strong></p>
-                                    <p style="text-align: justify;">NAAT offers customized and flexible EASA Part 66 Modular training and examination in collaboration with Air Service Training (AST), UK. This modular training is relevant for Aeronautical Engineers looking to get a good theoretical knowledge for the issuance of UK CAA approved EASA Part 66 license. After passing all the modules the students need a proof of a relevant experience for the issuance of the basic license from UK CAA.</p>
-                                    <p style="text-align: justify;">Once the basic license has been issued, the students can then&nbsp;appear for a conversion exam at CAAN.&nbsp;</p>
-                                    <p style="text-align: justify;">&nbsp;</p>
-                                    <p style="text-align: justify;"><strong>DETAILS OF THE SHORT MODULAR COURSE</strong></p>
-                                    <p style="text-align: justify;">All the classes and examination will be conducted at NAAT</p>
-                                    <p style="text-align: justify;">All the instructors are from Air Service Training</p>
-                                    <p style="text-align: justify;">Duration of each module preparation is one week at the end of which examination will be conducted</p> 	</div>
+                                <p style="text-align: justify;"><strong>AIRPORT RAMP SERVICES:</strong></p>
+                                <p style="text-align: justify;">
+                                    The aircraft servicing and ground handling basics you need to start a career on the ramp. Ramp handling services ensure the efficient
+                                     turnaround of aircraft so that flights stay on schedule. This course offers an introduction to ramp services
+                                      as well as the ground handling standards and safety requirements you need to know to work safely on the
+                                       ramp. Whether you are new to the industry or a recent recruit, this course provides a solid foundation for
+                                        further professional development in the field of ground operations.
+                                    </p>
 
+                                     <p style="text-align: justify;"><strong>COURSE DURATION:</strong></p>
+                                     <p style="text-align: justify;"><span style="font-size: 12.16px;">44 hours</span></p>
+
+                                     <p style="text-align: justify;"><strong>WHAT YOU WILL LEARN:</strong></p>
+                                     <p style="text-align: left;"><span style="font-size: 12.16px;">Upon completing this course you will have the skills to:</span></p>
+
+                                     <li>The ground operations working environment </span></li>
+                                     {{-- <li>Learn about passenger and baggage check-in and boarding procedures, including 	passengers with special needs</span></li> --}}
+                                     <li>Standard ramp operations terminology</span></li>
+                                     <li>The departments of an airport and how they work together</span></li>
+                                     <li>Basic safety and security for efficient operations</span></li>
+                                     <li>Procedures for key aircraft ground servicing tasks</span></li>
+                                     <li>IATA Airport Handling Manual and IATA Ground Operations Manual standards</span></li>
+                                     {{-- <li>Add value to existing and future employers looking to hire and retain knowledgeable and high performing personnel</span></li> --}}
+                                    <br>
+                                     <p style="text-align: justify;"><strong>COURSE CONTENT:</strong></p>
+                                     <li>Introduction to the airside environment and airport ramp services </span></li>
+                                     <li>Aircraft characteristics and turnaround plan 	</span></li>
+                                     <li>Cleaning, catering and other services</span></li>
+                                     <li>Ground service equipment </span></li>
+                                     <li>Standard operating procedures</span></li>
+                                     <li>Airside safety 	</span></li>
+                                     <li>Ramp security awareness  </span></li>
+                                     <li>Future developments in the sector of ramp services 	</span></li>
+                                    <br>
+                                     <p style="text-align: justify;"><strong>WHO SHOULD ATTEND:</strong></p>
+                                     <p style="text-align: left;"><span style="font-size: 12.16px;">This course is recommended for:</span></p>
+                                     <li>Anyone interested in pursuing a career with an airline or ground service provider </span></li>
+                                     <li>Recently recruited airline, airport and ground handling staff</span></li>
+                                     {{-- <p style="text-align: justify;"><span style="font-size: 12.16px;">Civil Aviation 	Authorities’ staff providing passenger services</span></p>
+                                     <p style="text-align: justify;"><span style="font-size: 12.16px;">Anyone wishing to start a career as a 	Passenger Service Agent</span></p> --}}
+                                    <br> 
+                                     <p style="text-align: justify;"><strong>CERTIFICATE AWARDED:</strong></p>
+                                     <p style="text-align: justify;"><span style="font-size: 12.16px;">An IATA Certificate is awarded to participants successfully passing the final exam.</span></p>
+                                     <br><br>
+                                     <p style="text-align: justify;"><span style="font-size: 12.16px;">For more information about the course please visit the official website of IATA at: </span></p>
+                                     <p style="text-align: justify;"><span style="font-size: 12.16px;"><a href="https://www.iata.org/en/training/courses/airport-ramp-services/267/en/">https://www.iata.org/en/training/courses/airport-ramp-services/267/en/</a></span></p>
+                                     
                             </div>
                         </div>
-
                     </div>
                 </div>
-
-                {{--<div class="sidebar sticky-sidebar">--}}
 
                 <div class="col-lg-4 col-sm-4 col-12">
                     <div class="services-single-left-box">
@@ -110,37 +134,22 @@
                                         </div>
                                     </div>
                                     <div class="ac-item">
-                                        <h5 class="ac-title no-icon">                                            
+                                        <h5 class="ac-title no-icon">
                                             <a href="#">Airlines Corporate Training</a>
                                         </h5>
                                     </div>
-                                    <div class="ac-item ac-active">
+                                    <div class="ac-item">
                                         <h5 class="ac-title">
                                             Consulting Services
                                         </h5>
                                         <div class="ac-content">
                                             <ul class="sub-list">
                                                 <li><a href="{{ route('pilot') }}">Pilot Training</a></li>
-                                                <li class="services-active"><a href="{{ route('aircraft') }}">Aircraft Maintenance Engineering</a></li>
+                                                <li><a href="{{ route('aircraft') }}">Aircraft Maintenance Engineering</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <li> <a href="#">City and Guilds courses</a>
-                                    <ul class="sub-list">
-                                        <li style="color: black;"><a href="#">Level 2 Diploma in Air Cabin Crew</a></li>
-                                        <li style="color: black;"><a href="#">Level 2 Diploma in Airport Ground Handling</a></li>
-                                        <li style="color: black;"><a href="#">Level 2 Diploma in International Tourism</a></li>
-                                        <li style="color: black;"><a href="#">Level 3 Advanced Diploma in International Tourism</a></li>
-                                    </ul>
-                                </li>
-                                <li> <a href="#">Airport Ground Handling</a></li>
-                                <li> <a href="#">Pilot Training</li> --}}
-
-                                {{-- <li> <a href="{{ route('cabincrew') }}">Cabin Crew Training</a></li>
-                                <li> <a href="{{ route('airport') }}">Airport Ground Handling</a></li>
-                                <li> <a href="{{ route('pilot') }}">Pilot Training</a> </li>
-                                <li class="services-active"> <a href="{{ route('aircraft') }}">Aircraft Maintenance Engineering</a></li> --}}
                             </ul>
                         </div>
                         <br>
@@ -155,6 +164,7 @@
                         </ul>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>

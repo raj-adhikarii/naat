@@ -142,6 +142,96 @@ class HomeController extends Controller
         return view('front.training.advancedinternationaltourism');
     }
 
+     public function aircraftmaintenance()
+    {
+        if(Session::has('success')){
+            Alert::success(session('success'));
+        }elseif(Session::has('error')){
+            Alert::error(session('error'));
+        }
+        return view('front.training.aircraftmaintenance');
+    }
+
+    public function trainingcanada()
+    {
+        if(Session::has('success')){
+            Alert::success(session('success'));
+        }elseif(Session::has('error')){
+            Alert::error(session('error'));
+        }
+        return view('front.training.trainingcanada');
+    }
+
+
+    public function groundservices()
+    {
+        if(Session::has('success')){
+            Alert::success(session('success'));
+        }elseif(Session::has('error')){
+            Alert::error(session('error'));
+        }
+        return view('front.training.groundservices');
+    }
+
+    public function airportramp()
+    {
+        if(Session::has('success')){
+            Alert::success(session('success'));
+        }elseif(Session::has('error')){
+            Alert::error(session('error'));
+        }
+        return view('front.training.airportramp');
+    }
+
+     public function groundoperation()
+    {
+        if(Session::has('success')){
+            Alert::success(session('success'));
+        }elseif(Session::has('error')){
+            Alert::error(session('error'));
+        }
+        return view('front.training.groundoperation');
+    }
+
+     public function airlinecrew()
+    {
+        if(Session::has('success')){
+            Alert::success(session('success'));
+        }elseif(Session::has('error')){
+            Alert::error(session('error'));
+        }
+        return view('front.training.airlinecrew');
+    }
+
+     public function regulationinitialcat()
+    {
+        if(Session::has('success')){
+            Alert::success(session('success'));
+        }elseif(Session::has('error')){
+            Alert::error(session('error'));
+        }
+        return view('front.training.regulationinitialcat');
+    }
+
+    public function regulationrecurrentcat()
+    {
+        if(Session::has('success')){
+            Alert::success(session('success'));
+        }elseif(Session::has('error')){
+            Alert::error(session('error'));
+        }
+        return view('front.training.regulationrecurrentcat');
+    }
+
+    public function easamodular()
+    {
+        if(Session::has('success')){
+            Alert::success(session('success'));
+        }elseif(Session::has('error')){
+            Alert::error(session('error'));
+        }
+        return view('front.training.easamodular');
+    }
     public function who()
     {
         if(Session::has('success')){

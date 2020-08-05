@@ -1,19 +1,19 @@
 @extends('layouts.front')
 
 @section('title')
-    <title>{{ config('app.name') }} | Aircraft Maintenance Engineering</title>
+    <title>{{ config('app.name') }} | Counseling On Pilot Training Program For Canada</title>
 @endsection
 
 @section('content')
     <section id="page-title" data-parallax-image="{{ asset('public/img/training-hero.jpg') }}">
         <div class="container">
             <div class="page-title">
-                <h1>Aircraft Maintenance Engineering</h1>
+                <h1>Counseling On Pilot Training Program For Canada</h1>
             </div>
             <div class="breadcrumb">
                 <ul>
                     <li><a href="{{ asset('/') }}">Home</a> </li>
-                    <li><a href="#">Aircraft Maintenance Engineering</a> </li>
+                    <li><a href="#">Counseling On Pilot Training Program For Canada</a> </li>
                 </ul>
             </div>
         </div>
@@ -23,42 +23,37 @@
         <div class="container">
             <div class="row">
                 <div class="content col-lg-8 col-sm-8 col-12">
-
                     <div id="blog" class="single-post">
-
                         <div class="post-item">
                             <div class="post-item-wrap">
                                 <div class="post-image">
                                     <a href="#">
-                                        <img alt="" src="{{ asset('public/img/aircraft.jpg') }}">
+                                        <img alt="" src="{{ asset('public/img/cabin.jpg') }}" style="height: 300px; object-fit: cover;">
                                     </a>
                                 </div>
                                 <br>
-                                <div itemprop="articleBody">
-                                    <p style="text-align: justify;"><strong>AIRCRAFT MAINTENANCE ENGINEERING (AME)</strong></p>
-                                    <p style="text-align: justify;">If your passion is in aviation and you love to work with airplanes then Aircraft Maintenance Engineering can be a promising career&nbsp;for you. Currently NAAT offers AME courses for both freshers and professionals.</p>
-                                    <p style="text-align: justify;">&nbsp;</p>
-                                    <p style="text-align: justify;"><strong>APPROVED PART 66 COURSE</strong></p>
-                                    <p style="text-align: justify;">If you are a high school graduate and you have completed your +2 (Science), this course will take you on a career path to become an AME. This course is offered by Air Service Training, UK. and you will be learning for the duration of 3 years.&nbsp;</p>
-                                    <p style="text-align: justify;">&nbsp;</p>
-                                    <hr>
-                                    <p style="text-align: justify;">&nbsp;</p>
-                                    <p style="text-align: justify;"><strong>EASA PART 66 SHORT MODULAR TRAINING &amp; EXAMINATION&nbsp;</strong></p>
-                                    <p style="text-align: justify;">NAAT offers customized and flexible EASA Part 66 Modular training and examination in collaboration with Air Service Training (AST), UK. This modular training is relevant for Aeronautical Engineers looking to get a good theoretical knowledge for the issuance of UK CAA approved EASA Part 66 license. After passing all the modules the students need a proof of a relevant experience for the issuance of the basic license from UK CAA.</p>
-                                    <p style="text-align: justify;">Once the basic license has been issued, the students can then&nbsp;appear for a conversion exam at CAAN.&nbsp;</p>
-                                    <p style="text-align: justify;">&nbsp;</p>
-                                    <p style="text-align: justify;"><strong>DETAILS OF THE SHORT MODULAR COURSE</strong></p>
-                                    <p style="text-align: justify;">All the classes and examination will be conducted at NAAT</p>
-                                    <p style="text-align: justify;">All the instructors are from Air Service Training</p>
-                                    <p style="text-align: justify;">Duration of each module preparation is one week at the end of which examination will be conducted</p> 	</div>
-
+                                <p style="text-align: justify;"><strong>COUNSELING ON PILOT TRAINING PROGRAM FOR CANADA:</strong></p>
+                                <p style="text-align: justify;">
+                                    NAAT provides counseling services to those who are interested in pursuing pilot training in Canada.
+                                    </p>
+                                    
+                                    <p style="text-align: justify;"><strong>ELIGIBILITY:</strong></p>
+                                    <p style="text-align: justify;"><strong>Age:</strong> 17 years and above</p>
+                                    {{-- <p style="text-align: justify;"><strong>Height:</strong> Male: 5' 7" Female: 5' 2"</p> --}}
+                                    <p style="text-align: justify;"><strong>Qualifications: </strong>High school/ +2 graduate in science</p>
+                                   
+                                     <p style="text-align: justify;"><strong>FEATURES:</strong></p>
+                                     <p style="text-align: justify;"><span style="font-size: 12.16px;">1. Globally recognized CP license from Canada</span></p>
+                                     <p style="text-align: justify;"><span style="font-size: 12.16px;">2. Student Permit Assist (SPA) from Canada</span></p>
+                                     <p style="text-align: justify;"><span style="font-size: 12.16px;">3. Guaranteed Instructor Job Interview</span></p>
+                                     <p style="text-align: justify;"><span style="font-size: 12.16px;">4. Opportunity 	to apply for work permit in Canada after successful completion of CPL</span></p>
+                                     <p style="text-align: justify;"><span style="font-size: 12.16px;">5. Quality Training</span></p>
+                                     <p style="text-align: justify;"><span style="font-size: 12.16px;">6. Affordable training fees</span></p>
+                                     
                             </div>
                         </div>
-
                     </div>
                 </div>
-
-                {{--<div class="sidebar sticky-sidebar">--}}
 
                 <div class="col-lg-4 col-sm-4 col-12">
                     <div class="services-single-left-box">
@@ -110,37 +105,22 @@
                                         </div>
                                     </div>
                                     <div class="ac-item">
-                                        <h5 class="ac-title no-icon">                                            
+                                        <h5 class="ac-title no-icon">
                                             <a href="#">Airlines Corporate Training</a>
                                         </h5>
                                     </div>
-                                    <div class="ac-item ac-active">
+                                    <div class="ac-item">
                                         <h5 class="ac-title">
                                             Consulting Services
                                         </h5>
                                         <div class="ac-content">
                                             <ul class="sub-list">
                                                 <li><a href="{{ route('pilot') }}">Pilot Training</a></li>
-                                                <li class="services-active"><a href="{{ route('aircraft') }}">Aircraft Maintenance Engineering</a></li>
+                                                <li><a href="{{ route('aircraft') }}">Aircraft Maintenance Engineering</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <li> <a href="#">City and Guilds courses</a>
-                                    <ul class="sub-list">
-                                        <li style="color: black;"><a href="#">Level 2 Diploma in Air Cabin Crew</a></li>
-                                        <li style="color: black;"><a href="#">Level 2 Diploma in Airport Ground Handling</a></li>
-                                        <li style="color: black;"><a href="#">Level 2 Diploma in International Tourism</a></li>
-                                        <li style="color: black;"><a href="#">Level 3 Advanced Diploma in International Tourism</a></li>
-                                    </ul>
-                                </li>
-                                <li> <a href="#">Airport Ground Handling</a></li>
-                                <li> <a href="#">Pilot Training</li> --}}
-
-                                {{-- <li> <a href="{{ route('cabincrew') }}">Cabin Crew Training</a></li>
-                                <li> <a href="{{ route('airport') }}">Airport Ground Handling</a></li>
-                                <li> <a href="{{ route('pilot') }}">Pilot Training</a> </li>
-                                <li class="services-active"> <a href="{{ route('aircraft') }}">Aircraft Maintenance Engineering</a></li> --}}
                             </ul>
                         </div>
                         <br>
@@ -155,6 +135,7 @@
                         </ul>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>

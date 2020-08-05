@@ -41,7 +41,7 @@
                 <div class="col-lg-4 col-sm-4 col-12">
                     <div class="services-single-left-box">
                         <div class="services-single-left-heading">
-                            <h4>Services</h4>
+                            <h4>Courses</h4>
                         </div>
                         <br>
                         <div class="services-single-menu mt-30">
@@ -53,26 +53,27 @@
                                         </h5>
                                         <div class="ac-content">
                                             <ul class="sub-list">
-                                                <li><a href="#">Level 2 Diploma in Air Cabin Crew</a></li>
-                                                <li><a href="#">Level 2 Diploma in Airport Ground Handling</a></li>
-                                                <li><a href="#">Level 2 Diploma in International Tourism</a></li>
-                                                <li><a href="#">Level 3 Advanced Diploma in International Tourism</a></li>
+                                                <li><a href="{{ route('diplomacrew') }}">Diploma in Air Cabin Crew</a></li>
+                                                <li><a href="{{ route('groundhandling') }}">Diploma in Airport Ground Handling</a></li>
+                                                <li><a href="{{ route('internationaltourism') }}">Level 2 Diploma in International Tourism</a></li>
+                                                <li><a href="{{ route('advancedinternationaltourism') }}">Level 3 Advanced Diploma in International Tourism</a></li>
+                                                <li><a href="{{ route('aircraftmaintenance') }}">Consultation on Aircraft Maintenance Engineering(AME)</a></li>
+                                                <li><a href="{{ route('trainingcanada') }}">Counseling On Pilot Training Program For Canada</a></li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="ac-item">
+                                    <div class="ac-item ac-active">
                                         <h5 class="ac-title">
                                             IATA Courses
                                         </h5>
                                         <div class="ac-content">
                                             <ul class="sub-list">
-                                                <li><a href="{{ route('airport') }}">Passenger Ground Services</a></li>
-                                                <li><a href="#">Airport Ramp Services</a></li>
-                                                <li><a href="#">Ground Operations Management</a></li>
-                                                <li><a href="{{ route('cabincrew') }}">Airline Cabin Crew Training</a>
-                                                </li>
-                                                <li><a href="#">Dangerous Goods Regulations (DGR) Initial Category 3</a></li>
-                                                <li><a href="#">Dangerous Goods Regulations (DGR) Recurrent Category 3</a></li>
+                                                <li><a href="{{ route('groundservices') }}">Passenger Ground Services</a></li>
+                                                <li><a href="{{ route ('airportramp') }}">Airport Ramp Services</a></li>
+                                                <li><a href="{{ route ('groundoperation')}} ">Ground Operations Management</a></li>
+                                                <li><a href="{{ route('airlinecrew') }}">Airline Cabin Crew Training</a></li>
+                                                <li><a href="{{ route('regulationinitialcat')}} ">Dangerous Goods Regulations (DGR) Initial Category 3</a></li>
+                                                <li><a href="{{ route('regulationrecurrentcat')}} ">Dangerous Goods Regulations (DGR) Recurrent Category 3</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -82,7 +83,7 @@
                                         </h5>
                                         <div class="ac-content">
                                             <ul class="sub-list">
-                                                <li><a href="#">Modular course and examination</a></li>
+                                                <li><a href="{{ route('easamodular')}} ">Modular course and examination</a></li>
                                             </ul>
                                         </div>
                                     </div>

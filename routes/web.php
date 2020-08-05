@@ -88,6 +88,16 @@ Route::get('training/diploma-in-cabin-crew','Front\HomeController@diplomacrew')-
 Route::get('training/diploma-in-airport-ground-handling','Front\HomeController@groundhandling')->name('groundhandling');
 Route::get('training/level-2-diploma-in-international-tourism','Front\HomeController@internationaltourism')->name('internationaltourism');
 Route::get('training/level-3-advanced-diploma-in-international-tourism','Front\HomeController@advancedinternationaltourism')->name('advancedinternationaltourism');
+Route::get('training/consultation-on-aircraft-maintenance-engineering','Front\HomeController@aircraftmaintenance')->name('aircraftmaintenance');
+Route::get('training/consultation-on-pilot-training-program-for-canada','Front\HomeController@trainingcanada')->name('trainingcanada');
+
+Route::get('training/passenger-ground-services','Front\HomeController@groundservices')->name('groundservices');
+Route::get('training/airport-ramp-services','Front\HomeController@airportramp')->name('airportramp');
+Route::get('training/ground-operations-management','Front\HomeController@groundoperation')->name('groundoperation');
+Route::get('training/airline-cabin-crew-training','Front\HomeController@airlinecrew')->name('airlinecrew');
+Route::get('training/dengerous-goods-regulation-(dgr)-initial-category-3','Front\HomeController@regulationinitialcat')->name('regulationinitialcat');
+Route::get('training/dengerous-goods-regulation-(dgr)-recurrent-category-3','Front\HomeController@regulationrecurrentcat')->name('regulationrecurrentcat');
+Route::get('training/modular-courses-and-examination','Front\HomeController@easamodular')->name('easamodular');
 
 Route::get('training/cabin-crew-training','Front\HomeController@cabincrew')->name('cabincrew');
 Route::get('training/airport-ground-handling','Front\HomeController@airport')->name('airport');

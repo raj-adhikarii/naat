@@ -75,21 +75,23 @@
                                                 <li><a href="{{ route('groundhandling') }}">Diploma in Airport Ground Handling</a></li>
                                                 <li><a href="{{ route('internationaltourism') }}">Level 2 Diploma in International Tourism</a></li>
                                                 <li><a href="{{ route('advancedinternationaltourism') }}">Level 3 Advanced Diploma in International Tourism</a></li>
+                                                <li><a href="{{ route('aircraftmaintenance') }}">Consultation on Aircraft Maintenance Engineering(AME)</a></li>
+                                                <li><a href="{{ route('trainingcanada') }}">Counseling On Pilot Training Program For Canada</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown-submenu"><a href="#">IATA Courses</a>
                                             <ul class="dropdown-menu">
-                                                <li><a href="{{ route('airport') }}">Passenger Ground Services</a></li>
-                                                <li><a href="#">Airport Ramp Services</a></li>
-                                                <li><a href="#">Ground Operations Management</a></li>
-                                                <li><a href="{{ route('cabincrew') }}">Airline Cabin Crew Training</a></li>
-                                                <li><a href="#">Dangerous Goods Regulations (DGR) Initial Category 3</a></li>
-                                                <li><a href="#">Dangerous Goods Regulations (DGR) Recurrent Category 3</a></li>
+                                                <li><a href="{{ route('groundservices') }}">Passenger Ground Services</a></li>
+                                                <li><a href="{{ route ('airportramp') }}">Airport Ramp Services</a></li>
+                                                <li><a href="{{ route ('groundoperation')}} ">Ground Operations Management</a></li>
+                                                <li><a href="{{ route('airlinecrew') }}">Airline Cabin Crew Training</a></li>
+                                                <li><a href="{{ route('regulationinitialcat')}} ">Dangerous Goods Regulations (DGR) Initial Category 3</a></li>
+                                                <li><a href="{{ route('regulationrecurrentcat')}} ">Dangerous Goods Regulations (DGR) Recurrent Category 3</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown-submenu"><a href="#">EASA Part 66</a>
                                             <ul class="dropdown-menu">
-                                                <li><a href="#">Modular course and examination</a></li>
+                                                <li><a href="{{ route ('easamodular')}} ">Modular course and examination</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">Airlines Corporate Training</a></li>
